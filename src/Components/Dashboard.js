@@ -13,7 +13,7 @@ const Dashboard = (props) => {
 
     return (
         <>
-            <div><hi>I am Dashboard Page</hi></div>
+            <div><h1>I am Dashboard Page</h1></div>
             <Person1/>
             <Person2/>
         </>

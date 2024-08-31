@@ -28,7 +28,7 @@ const todoSlices = createSlice({
                 state.loading = true;
             })
             .addCase(fetchTodoList.fulfilled, (state, action) => {
-                state.todoList.push(action.payload);
+                state.todoList = action.payload;
                 state.loading = false;
             })
             .addCase(fetchTodoList.rejected, (state, action) => {
